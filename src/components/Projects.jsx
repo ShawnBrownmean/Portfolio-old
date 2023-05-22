@@ -15,13 +15,25 @@ function Projects() {
         <p className='text-center py-8'>My best Projects</p>
 
         <div className='grid sm:grid-cols-2 gap-12'>
-            <ProjectItem img={portfolio1} title='portfolio1'/>
-            <ProjectItem img={portfolio2} title='portfolio2'/>
-            <ProjectItem img={portfolio3} title='portfolio3'/>
-            <ProjectItem img={portfolio4} title='portfolio4'/>
-            <ProjectItem img={portfolio5} title='portfolio5'/>
-            <ProjectItem img={portfolio6} title='portfolio6'/>
-            
+            <a href="/demo">
+              <ProjectItem img={portfolio1} title='portfolio1'/>
+            </a>
+            <a href="/demo2">
+              <ProjectItem img={portfolio2} title='portfolio2'/>
+            </a>
+            <a href="/demo3">
+              <ProjectItem img={portfolio3} title='portfolio3'/>
+            </a>
+            <a href="/demo4">
+              <ProjectItem img={portfolio4} title='portfolio4'/>
+            </a>
+            <a href="/demo5">
+              <ProjectItem img={portfolio5} title='portfolio5'/>
+            </a>
+            <a href="/demo6">
+              <ProjectItem img={portfolio6} title='portfolio6'/>
+            </a>
+
         </div>
     </div>
 
