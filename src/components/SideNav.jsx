@@ -1,7 +1,6 @@
 import  { useState } from 'react';
 import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
 import { GrProjects } from 'react-icons/gr';
-import { BsPerson } from 'react-icons/bs';
 
 function SideNav() {
   const [nav, setNav] = useState(false);
