@@ -2,10 +2,10 @@ import  { useState } from 'react';
 import SideNav from './components/SideNav'
 import Main from './components/Main';
 import Work from './components/Work';
-import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Skills from './components/skills';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <SideNav />
         <Main />
         <Work />
-        <Skills />
+        <Skills/>
         <Projects/>
         <Contact/>
         <Footer/>
