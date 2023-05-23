@@ -4,7 +4,7 @@ const items = [{
   image: portfolio1, 
   title: "Portfolio 1", 
   codeLink: "https://github.com/ShawnBrownmean/Portfolio.git",
-  demoLink: 'https://demo-link-portfolio1.com'
+  demoLink: "https://demo-link-portfolio1.com"
 }]
 
 export default items;
