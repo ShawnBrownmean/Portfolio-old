@@ -3,7 +3,7 @@ import WorkItem from './WorkItem';
 
 const data = [ 
   {
-    year: 2020,
+    year: 2021,
     title: 'Freelancer',
     duration: '2 years',
     details: 'I became a freelancer and started to teach myself how to program.',

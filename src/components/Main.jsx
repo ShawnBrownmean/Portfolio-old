@@ -6,7 +6,7 @@ function Main() {
     <div id='main' className="flex flex-col items-center justify-center h-screen">
       <img className="w-full h-screen object-cover object-left" src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80" />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50 flex flex-col items-center justify-center">
-        <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">I'm Shawn</h1>
+        <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">I'm Shawn Brown</h1>
         <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
           I'm a{' '}
           <TypeAnimation
