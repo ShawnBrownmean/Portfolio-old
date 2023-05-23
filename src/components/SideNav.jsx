@@ -1,6 +1,6 @@
 import  { useState } from 'react';
-import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
-import { GrProjects } from 'react-icons/gr';
+import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail,} from 'react-icons/ai';
+import { FaBriefcase, FaCode  } from 'react-icons/fa';
 
 function SideNav() {
   const [nav, setNav] = useState(false);
@@ -28,8 +28,15 @@ function SideNav() {
             href='#work'
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg text-white bg-[#3f4b61] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-on duration-200'
           >
-            <GrProjects size={20} />
-            <span className='pl-4'> Work </span>
+            <FaBriefcase size={20}  className='text-white'/>
+            <span className='pl-4 color'> work </span>
+          </a>
+          <a onClick={handleNav}
+            href='#skills'
+            className='w-[75%] flex justify-center items-center rounded-full shadow-lg text-white bg-[#3f4b61] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-on duration-200'
+          >
+            <FaCode size={20}  className='text-white'/>
+            <span className='pl-4 color'> skills </span>
           </a>
           <a onClick={handleNav}
             href='#projects'
@@ -55,7 +62,10 @@ function SideNav() {
                     <AiOutlineHome size={20}/>
                 </a>
                 <a href='#work' className='rounded-full shadow-lg text-white bg-[#3f4b61] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <GrProjects size={20}/>
+                    <FaBriefcase size={20}/>
+                </a>
+                <a href='#skills' className='rounded-full shadow-lg text-white bg-[#3f4b61] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <FaCode  size={20}/>
                 </a>
                 <a href='#projects' className='rounded-full shadow-lg text-white bg-[#3f4b61] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineProject size={20}/>
